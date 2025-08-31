@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 65%;
+  border: 2px solid #4a90e2;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #357ab7;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  transition: all 0.5s ease-in-out;
+}
+
+.weather-card img {
+  width: 70px;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #222;
+}
+
+.ad-space {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  color: #777;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* LinkedIn ad style */
+.linkedin-ad {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background: #0077b5;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.linkedin-ad img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.linkedin-ad:hover {
+  background: #005582;
+}
+
+/* Social Ads Container */
+.ad-space {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Common Style for Both */
+.social-ad {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* LinkedIn Card */
+.linkedin-ad {
+  background: #0077b5;
+}
+.linkedin-ad:hover {
+  background: #005582;
+}
+
+/* GitHub Card */
+.github-ad {
+  background: #000;
+}
+.github-ad:hover {
+  background: #24292e;
+}
+
+.social-ad img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
