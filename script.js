@@ -13,7 +13,7 @@ searchBtn.addEventListener("click", () => {
 
 async function fetchWeather(city) {
   try {
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
     const response = await fetch(url);
     if (!response.ok) throw new Error("City not found");
 
